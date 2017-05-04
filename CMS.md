@@ -35,4 +35,58 @@
       Repositories  code commits issues wikis users  
   15. 你在github上挖到什么宝  
         1. 搜索感兴趣的项目  
-        2. 技术大牛  
+        2. 技术大牛  
+#GitHub 问题集(二)
+1.个人主页上的“+”下拉菜单可创建的四种类别分别有？分别的意思？  
+New repository新的仓库  
+Import repository导入仓库  
+New gist新的代码  
+New organization新的组织  
+2.如何能将仓库中的html文件直接解析成页面？  
+设置GitHub page  
+3.如何删除仓库  
+点击settings，进入后点击delete repository，输入仓库名进行删除    
+4.Bash是什么操作系统的命令    
+Linux    
+5.Pwd是什么命令  
+显示当前目录  
+6.Cd是什么命令  
+改变目录  
+7.Echo是什么命令  
+读出  
+8.配置git用户名的命令  
+git config -global user.name   
+9.配置邮箱的命令  
+git config--global user.email  
+10.命令行换行方式 \（反斜杠）  
+11.命令行终结方式 Ctrl+C  
+12.使用命令行比GUI方式有何优势  
+一次可建多个文件夹，复杂操作可以批处理  
+13.提交到本地仓库时为什么有暂存区  
+如果存在问题则在暂存区存放，没有问题则从暂存区提交  
+14.新建代码仓库的命令  
+Git init  
+15.git clone [url] 这个命令的作用是  
+将远程仓库中的数据下载到本地仓库  
+16.添加指定文件到暂存区的命令  
+Git add 文件名  
+17.删除工作区文件，并且将这次删除放入暂存区的命令  
+Git rm  
+18.改名文件，并且将这个改名文件放入暂存区的命令  
+mv a.txt c.txt  
+git add c.txt  
+19.提交暂存区到仓库的命令  
+Git commit  
+20.直接从工作区提交到仓库的命令  
+Git clone  
+21.显示变更信息的命令  
+Git status  
+22.查看历史信息的命令  
+Git log  
+23.Commit的意义是  
+将文件从暂存区提交到仓库  
+24.Pull的意义是  
+从远程仓库中抓取最新的提交  
+25.Push的意义是  
+将本地的数据推送到远程仓库中  
+
